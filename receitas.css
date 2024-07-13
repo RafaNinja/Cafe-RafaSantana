@@ -1,0 +1,47 @@
+
+.cards-receitas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.card {
+    background-color: antiquewhite;
+    border: 2px solid #d3d3d3;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 2px 5px 5px chocolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+
+.card-title{
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.card ul {
+    font-family: "Ubuntu", sans-serif;
+    padding-left: 20px;
+}
+
+.card span, .card strong {
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    display: block;
+    margin: 5px 0;
+}
+
+
+
+
+
+
